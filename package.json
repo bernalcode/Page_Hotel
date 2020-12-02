@@ -1,0 +1,24 @@
+{
+  "name": "serverhotelcotranal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.15",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "nodemon": "^2.0.4"
+  }
+}
